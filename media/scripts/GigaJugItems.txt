@@ -1,0 +1,71 @@
+module SGJ
+{
+    imports
+    {
+        Base
+    }
+
+
+    item GigaJugEmptyItem
+    {
+        DisplayName             =   Empty Water Jug,
+        DisplayCategory         =   WaterContainer,
+        Type                    =   Normal,
+        ReplaceOnUseOn	        =	WaterSource-GigaJugWaterItem,
+        ReplaceTypes            =   PetrolSource GigaJugGasItem; WaterSource GigaJugWaterItem,
+        Icon                    =   giga_jug_empty,
+        StaticModel             =   GigaJugEmptyStaticModel,
+        WorldStaticModel        =   GigaJugEmptyWorldStaticModel,
+        ReplaceInPrimaryHand    =   GigaJugEmptyStaticModel holdingbagright,
+        ReplaceInSecondHand     =   GigaJugEmptyStaticModel holdingbagleft,
+        Weight                  =   0.5,
+        CanStoreWater           =   true,
+        RainFactor              =   1,
+        Tags                    =   GigaJugEmpty, IsFireFuel; IsFireTinder; CookableMicrowave; EmptyPetrol,
+        Tooltip                 =   Tooltip_GigaJugDesc,
+    }
+
+    item GigaJugWaterItem
+    {
+        DisplayName             =   Water Jug,
+        DisplayCategory         =   WaterContainer,
+        Type                    =   Drainable,
+        ReplaceOnUseOn          =   WaterSource-GigaJugWaterItem,
+        ReplaceOnDeplete        =   GigaJugEmptyItem,
+        Icon                    =   giga_jug_water,
+        StaticModel             =   GigaJugWaterStaticModel,
+        WorldStaticModel        =   GigaJugWaterWorldStaticModel,
+        ReplaceInPrimaryHand    =   GigaJugWaterStaticModel holdingbagright,
+        ReplaceInSecondHand     =   GigaJugWaterStaticModel holdingbagleft,
+        Weight                  =   20.0,
+        IsWaterSource           =   true,
+        CanStoreWater           =   true,
+        UseWhileEquipped        =   false,
+        IsCookable              =   true,
+        UseDelta                =   0.004,
+        FillFromDispenserSound  =   GigaJugFill,
+        FillFromTapSound 		= 	GigaJugFill,
+        CustomEatSound 			= 	DrinkingFromBottlePlastic,
+        UseWhileEquipped        =   false,
+        Tags                    =   GigaJugEmpty,
+        Tooltip                 =   Tooltip_GigaJugDesc,
+    }
+
+    item GigaJugGasItem
+    {
+        DisplayName             =   Water Jug with Gasoline,
+        DisplayCategory         =   VehicleMaintenance,
+        Type                    =   Drainable,
+        ReplaceOnDeplete        =   GigaJugEmptyItem,
+        Icon                    =   giga_jug_gasoline,
+        StaticModel             =   GigaJugGasStaticModel,
+        WorldStaticModel        =   GigaJugGasWorldStaticModel,
+        ReplaceInPrimaryHand    =   GigaJugGasStaticModel holdingbagright,
+        ReplaceInSecondHand     =   GigaJugGasStaticModel holdingbagleft,
+        Weight                  =   20.0,
+        UseWhileEquipped        =   false,
+        UseDelta                =   0.004,
+        Tags                    =   GigaJugEmpty; Petrol,
+        Tooltip                 =   Tooltip_GigaJugDesc,
+    }
+}

@@ -1,0 +1,5 @@
+ItemName_EN = {
+    ItemName_SGJ.GigaJugEmptyItem   = "Empty Water Jug",
+    ItemName_SGJ.GigaJugWaterItem   = "Water Jug",
+    ItemName_SGJ.GigaJugGasItem     = "Water Jug with Gasoline",
+}

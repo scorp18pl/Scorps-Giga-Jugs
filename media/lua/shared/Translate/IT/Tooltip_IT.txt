@@ -1,0 +1,2 @@
+Tooltip_IT
+Tooltip_GigaJugDesc = "GIGA JUG: Perché non sai mai quando avrai bisogno di un oceano di freschezza. Attenzione: Può comportare frequenti visite in bagno."

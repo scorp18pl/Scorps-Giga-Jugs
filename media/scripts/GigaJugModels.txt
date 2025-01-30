@@ -1,0 +1,50 @@
+module SGJ
+{
+    imports
+    {
+        Base
+    }
+
+    model GigaJugEmptyStaticModel
+    {
+        mesh    =   Items/giga_jug_static,
+        texture =   Items/Base_giga_jug_empty,
+        scale   =   1.0,
+    }
+
+    model GigaJugEmptyWorldStaticModel
+    {
+        mesh    =   Items/giga_jug_world_static,
+        texture =   Items/Base_giga_jug_empty,
+        scale   =   1.0,
+    }
+
+    model GigaJugWaterStaticModel
+    {
+        mesh    =   Items/giga_jug_static,
+        texture =   Items/Base_giga_jug_water,
+        scale   =   1.0,
+    }
+
+    model GigaJugWaterWorldStaticModel
+    {
+        mesh    =   Items/giga_jug_world_static,
+        texture =   Items/Base_giga_jug_water,
+        scale   =   1.0,
+    }
+
+    model GigaJugGasStaticModel
+    {
+        mesh    =   Items/giga_jug_static,
+        texture =   Items/Base_giga_jug_gasoline,
+        scale   =   1.0,
+    }
+
+    model GigaJugGasWorldStaticModel
+    {
+        mesh    =   Items/giga_jug_world_static,
+        texture =   Items/Base_giga_jug_gasoline,
+        scale   =   1.0,
+    }
+
+}

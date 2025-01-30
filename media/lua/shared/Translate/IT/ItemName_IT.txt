@@ -1,0 +1,5 @@
+ItemName_IT = {
+    ItemName_SGJ.GigaJugEmptyItem   = "Bottiglione d'acqua vuoto",
+    ItemName_SGJ.GigaJugWaterItem   = "Bottiglione d'acqua",
+    ItemName_SGJ.GigaJugGasItem     = "Bottiglione d'acqua con benzina",
+}

@@ -1,0 +1,2 @@
+Tooltip_EN
+Tooltip_GigaJugDesc = "GIGA JUG: Because you never know when you might need a small ocean's worth of hydration. Warning: Might cause unexpected bathroom quests."

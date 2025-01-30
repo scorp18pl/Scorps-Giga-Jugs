@@ -1,0 +1,2 @@
+Tooltip_PL
+Tooltip_GigaJugDesc = "GIGA BANIAK: Bo nigdy nie wiesz kiedy przyda Ci siê ocean orzeŸwienia. Uwaga: Skutkuje czêstym oddawaniem moczu."

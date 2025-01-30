@@ -1,0 +1,5 @@
+ItemName_PL = {
+    ItemName_SGJ.GigaJugEmptyItem   = "Pusty Baniak na Wodê",
+    ItemName_SGJ.GigaJugWaterItem   = "Baniak z Wod¹",
+    ItemName_SGJ.GigaJugGasItem     = "Baniak na Wodê z Benzyn¹",
+}

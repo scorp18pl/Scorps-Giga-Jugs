@@ -1,0 +1,22 @@
+module SGJ
+{
+    imports
+    {
+        Base
+    }
+
+    sound GigaJugFill
+    {
+        category    =   EHE: Main,
+        loop        =   true,
+        is3D        =   true,
+        clip
+        {
+            file            =   media/sound/GigaJugFillSound.wav,
+            distanceMin     =   0,
+            distanceMax     =   10,
+            volume          =   0.5,
+            reverbFactor    =   0.1,
+        }
+    }
+}

@@ -45,7 +45,7 @@ If you're fluent in another language or have identified a fix for an issue, here
 
 2. **Make Your Changes**: Work on your translations or fixes in your forked repository. Ensure that your changes are clear and concise. For translations, maintain the context and tone of the original text.
 
-3. **Commit Your Changes**: Commit your changes with a clear message describing what you've modified. For example, "Add French translation for README" or "Fix login bug."
+3. **Commit Your Changes**: Commit your changes with a clear message describing what you've modified. For example, "Add French translation" or "Bugfix: Fix the ..."
 
 4. **Create a Pull Request**: Once you're ready, create a pull request to merge your changes into the original repository. Provide a descriptive title and a detailed description of your contributions. Link any relevant issues.
 

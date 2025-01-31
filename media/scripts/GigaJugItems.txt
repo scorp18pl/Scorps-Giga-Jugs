@@ -21,7 +21,7 @@ module SGJ
         Weight                  =   0.5,
         CanStoreWater           =   true,
         RainFactor              =   1,
-        Tags                    =   GigaJugEmpty, IsFireFuel; IsFireTinder; CookableMicrowave; EmptyPetrol,
+        Tags                    =   IsFireFuel;IsFireTinder;CookableMicrowave;EmptyPetrol,
         Tooltip                 =   Tooltip_GigaJugDesc,
     }
 
@@ -47,7 +47,6 @@ module SGJ
         FillFromTapSound 		= 	GigaJugFill,
         CustomEatSound 			= 	DrinkingFromBottlePlastic,
         UseWhileEquipped        =   false,
-        Tags                    =   GigaJugEmpty,
         Tooltip                 =   Tooltip_GigaJugDesc,
     }
 
@@ -65,7 +64,7 @@ module SGJ
         Weight                  =   20.0,
         UseWhileEquipped        =   false,
         UseDelta                =   0.004,
-        Tags                    =   GigaJugEmpty; Petrol,
+        Tags                    =   Petrol,
         Tooltip                 =   Tooltip_GigaJugDesc,
     }
 }

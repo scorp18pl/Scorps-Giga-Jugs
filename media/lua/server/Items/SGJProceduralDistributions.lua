@@ -5,7 +5,7 @@ function AddItemToProcDistGroup(groupName, itemName, weight)
     table.insert(ProceduralDistributions.list[groupName].items, weight)
 end
 
-local GigaJugEmptyItemId = "ScorpsWaterJugs.GigaJugEmptyItem"
+local GigaJugEmptyItemId = "SGJ.GigaJugEmptyItem"
 
 AddItemToProcDistGroup("BinBar", GigaJugEmptyItemId, 0.1)
 AddItemToProcDistGroup("BinGeneric", GigaJugEmptyItemId, 0.2)
@@ -13,7 +13,7 @@ AddItemToProcDistGroup("CrateCannedFoodSpoiled", GigaJugEmptyItemId, .6)
 AddItemToProcDistGroup("CrateEmptyMixed", GigaJugEmptyItemId, 2)
 
 
-local GigaJugWaterItemId = "ScorpsWaterJugs.GigaJugWaterItem"
+local GigaJugWaterItemId = "SGJ.GigaJugWaterItem"
 
 AddItemToProcDistGroup("FridgeWater", GigaJugWaterItemId, 5)
 AddItemToProcDistGroup("FridgeWater", GigaJugWaterItemId, 2)
